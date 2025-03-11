@@ -2,12 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>GitHub Random Repository</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <main>
+
+        <select id="language-select">
+          <option value="">Select a Language</option>
+        </select>
+
+        <div id="status-message">Please select a language</div>
+
+        <div id="repository-info" class="hidden">
+          <h2 id="repo-name"></h2>
+          <p id="repo-description"></p>
+          <div id="repo-stats">
+            <span id="stars"></span>
+            <span id="forks"></span>
+            <span id="issues"></span>
+          </div>
+        </div>
+
+        <button id="refresh-button" class="hidden">Refresh</button>
+        
+      </main>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
