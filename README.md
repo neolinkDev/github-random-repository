@@ -4,6 +4,7 @@ A web application that allows users to randomly search for GitHub repositories f
 https://roadmap.sh/projects/github-random-repo
 
 ![Group 3](https://github.com/user-attachments/assets/cebc28aa-f909-4120-a5f5-5cbcd4ddba95)
+
 ---
 
 ## Features✨
